@@ -1,3 +1,3 @@
 Hello Mitrooo,
 
-for Swiggy => /Swiggy.json
+for Swiggy ➼ /Swiggy.json
