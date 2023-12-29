@@ -1,0 +1,1640 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Sita Ram Diwan Chand",
+            "headerStyling": {
+              "textColor": "testTitleColor",
+              "textVariant": "FONT_NAME_REGULAR"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "10110",
+              "name": "Sita Ram Diwan Chand",
+              "city": "Delhi",
+              "slugs": {
+                "restaurant": "sita-ram-diwan-chand-nsp",
+                "city": "delhi"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "ds5pkjzsjsvfxb2xhmsp",
+              "locality": "MD Block",
+              "areaName": "Pitampura",
+              "costForTwo": "10000",
+              "costForTwoMessage": "₹100 for two",
+              "cuisines": [
+                "North Indian",
+                "Snacks"
+              ],
+              "avgRating": 4.2,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "10110",
+                "fees": [
+                  {
+                    "name": "distance",
+                    "fee": 6500
+                  },
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 6500,
+                "icon": "v1648208530/surgecreatives/info",
+                "message": "Far (5 kms) | Additional delivery fee will apply"
+              },
+              "parentId": "3621",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "10K+ ratings",
+              "sla": {
+                "restaurantId": "10110",
+                "deliveryTime": 24,
+                "minDeliveryTime": 24,
+                "maxDeliveryTime": 24,
+                "lastMileTravel": 5,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 28,
+                "slaString": "24 MINS",
+                "lastMileTravelString": "5.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-12-29 19:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use WELCOMEBACK",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off | Use PARTY",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹100 | Use code WELCOMEBACK",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off | Use code PARTY",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "sita-ram-diwan-chand-nsp",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Shop 2, MD Market, Muni Maya Ram Jain Marg, MD Block, Pitampura"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "North Indian,Snacks"
+                }
+              ],
+              "totalRatings": 10000,
+              "aggregatedDiscountInfoV2": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use WELCOMEBACK",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off | Use PARTY",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹100 | Use code WELCOMEBACK",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "10% off | Use code PARTY",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 111,
+                  "maxValue": 159,
+                  "priority": 1,
+                  "couponCode": "WELCOMEBACK",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 60
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save upto ₹100 | Code WELCOMEBACK",
+                  "unlockedMessage": "WELCOMEBACK Coupon Unlocked! Use it to save upto ₹100",
+                  "logoCtx": {}
+                },
+                {
+                  "minValue": 490,
+                  "maxValue": 700,
+                  "priority": 2,
+                  "couponCode": "PARTY",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 10
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to unlock flat 10% off | Code PARTY",
+                  "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 10% off",
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/10110"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "Far (5 kms) | Additional delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648208530/surgecreatives/info"
+                  },
+                  "popup": {
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>Far (5 kms)</b> | Additional delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {}
+                  }
+                }
+              ],
+              "loyaltyDiscoverPresentationInfo": {
+                "logoCtx": {
+                  "logo": "Swiggy%20One%20Lite/One_lite_Horizontal.png"
+                },
+                "freedelMessage": "Free delivery",
+                "badgeType": "BADGE_TYPE_ONE_LITE"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "28.700092,77.1415299999999"
+            },
+            "analytics": {}
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10
+                }
+              },
+              "scrollBar": {
+                "scrollThumbColor": "#E46D47",
+                "scrollTrackColor": "#e4e4e4",
+                "width": 54,
+                "height": 4,
+                "scrollStyling": {
+                  "padding": {
+                    "top": 20,
+                    "bottom": 20
+                  }
+                }
+              }
+            },
+            "id": "offerCollectionWidget",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "60% OFF UPTO ₹100",
+                      "offerTag": "WELCOME",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "935cc76e-774b-4aed-83db-7f550eb7b8ac"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE WELCOMEBACK",
+                      "description": "ABOVE ₹159",
+                      "offerType": "offers",
+                      "restId": "10110",
+                      "offerLogo": "offers/welcome",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 10% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "40a8731d-325b-40e0-acd6-44faa68bc1cf"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE PARTY",
+                      "description": "ABOVE ₹700",
+                      "offerType": "offers",
+                      "restId": "10110",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "d7172d6e-dc8f-4c3c-a0f2-0c05542aa546"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLATDEAL",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "10110",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "10% OFF UPTO ₹100",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/cd60f23dc2ac83be906d0f6ba55d3d12",
+                      "offerIds": [
+                        "af8108be-6bfa-47d5-a569-ea33c27bba92"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹750",
+                      "offerType": "offers",
+                      "restId": "10110",
+                      "offerLogo": "rng/md/ads/production/cd60f23dc2ac83be906d0f6ba55d3d12",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹50 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/7f31c9e47ddd7e6a3c16d21553c0ca60",
+                      "offerIds": [
+                        "4068d43d-ac34-47db-adf2-17dacc07eecd"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹300",
+                      "offerType": "offers",
+                      "restId": "10110",
+                      "offerLogo": "rng/md/ads/production/7f31c9e47ddd7e6a3c16d21553c0ca60",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.rng.growth.offersfoodbusiness.v1.LoyaltyDiscoverPresentationInfo",
+            "logoCtx": {
+              "logo": "Swiggy%20One%20Lite/One_lite_Horizontal.png"
+            },
+            "freedelMessage": "Free delivery",
+            "badgeType": "BADGE_TYPE_ONE_LITE"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuTab",
+            "tabs": [
+              {
+                "id": "REGULAR",
+                "title": "Full Menu",
+                "selected": true,
+                "analytics": {},
+                "selectedImage": "v1594205104/fullMenuActive_qcsdzt.png",
+                "unselectedImage": "v1594205107/fullMenuInactive_fbdtp2.png"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {},
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "111774713",
+                              "name": "Sweet Lassi.",
+                              "category": "Holi Special",
+                              "imageId": "91974a70aef60788465c460c021f3b54",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {},
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "25128894",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "1 Piece",
+                                        "price": 90,
+                                        "default": 1,
+                                        "id": "80015934",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "2 Pieces",
+                                        "price": 180,
+                                        "id": "80015935",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128894",
+                                        "variationId": "80015934"
+                                      }
+                                    ],
+                                    "price": 9000
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128894",
+                                        "variationId": "80015935"
+                                      }
+                                    ],
+                                    "price": 18000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 9000,
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2899 ratings",
+                                  "ratingCountV2": "2899"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852101",
+                              "name": "Single Aloo",
+                              "category": "Quick Bites",
+                              "description": "| Serves 1 | | 150 Ml | Simple and best, potato spiced with chilli, cumin and coriander.",
+                              "imageId": "f50cfd3e9bc6ab8a05cc9e25747a5524",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1121 ratings",
+                                  "ratingCountV2": "1121"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852105",
+                              "name": "Single Chole (a Lip-smacking Dish Made Of Chickpeas Laden With Whole Spices, Onions And Tomatoes )",
+                              "category": "Quick Bites",
+                              "description": "| 150 ml |",
+                              "imageId": "c6d6db40b46923b2ea8df21cf6ebbba0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "4105 ratings",
+                                  "ratingCountV2": "4105"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994221",
+                              "name": "Chole Bhatoora (with Aloo)",
+                              "category": "Quick Bites",
+                              "description": "(cannot provide extra Onions and Chutneyat free of cost or with addtional cost) Serves - 1",
+                              "imageId": "121f02db6eb5fdd487b3fe5179f63abd",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "1324 ratings",
+                                  "ratingCountV2": "1324"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994228",
+                              "name": "Sweet Lassi",
+                              "category": "Drinks",
+                              "description": "| 300 ml | A creamy and wholesome drink, made from yogurt flavored with sugar.",
+                              "imageId": "7a4fc3a99a305000479519b94d99a207",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2899 ratings",
+                                  "ratingCountV2": "2899"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Holi Special",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "111774713",
+                              "name": "Sweet Lassi.",
+                              "category": "Holi Special",
+                              "imageId": "91974a70aef60788465c460c021f3b54",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {},
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "25128894",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "1 Piece",
+                                        "price": 90,
+                                        "default": 1,
+                                        "id": "80015934",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "2 Pieces",
+                                        "price": 180,
+                                        "id": "80015935",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128894",
+                                        "variationId": "80015934"
+                                      }
+                                    ],
+                                    "price": 9000
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128894",
+                                        "variationId": "80015935"
+                                      }
+                                    ],
+                                    "price": 18000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 9000,
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2899 ratings",
+                                  "ratingCountV2": "2899"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "111774714",
+                              "name": "Namkeen Lassi + Sweet Lassi",
+                              "category": "Holi Special",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "111774716",
+                              "name": "Namkeen Lassi.",
+                              "category": "Holi Special",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "variants": {},
+                              "variantsV2": {
+                                "variantGroups": [
+                                  {
+                                    "groupId": "25128895",
+                                    "name": "Quantity",
+                                    "variations": [
+                                      {
+                                        "name": "1 Piece",
+                                        "price": 90,
+                                        "default": 1,
+                                        "id": "80015936",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      },
+                                      {
+                                        "name": "2 Pieces",
+                                        "price": 180,
+                                        "id": "80015937",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "pricingModels": [
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128895",
+                                        "variationId": "80015936"
+                                      }
+                                    ],
+                                    "price": 9000
+                                  },
+                                  {
+                                    "variations": [
+                                      {
+                                        "groupId": "25128895",
+                                        "variationId": "80015937"
+                                      }
+                                    ],
+                                    "price": 18000
+                                  }
+                                ]
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "defaultPrice": 9000,
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "30 ratings",
+                                  "ratingCountV2": "30"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Quick Bites",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852101",
+                              "name": "Single Aloo",
+                              "category": "Quick Bites",
+                              "description": "| Serves 1 | | 150 Ml | Simple and best, potato spiced with chilli, cumin and coriander.",
+                              "imageId": "f50cfd3e9bc6ab8a05cc9e25747a5524",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1121 ratings",
+                                  "ratingCountV2": "1121"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852103",
+                              "name": "Chole Bhatoora (without Aloo) (a Classic Punjabi Combo Consisting Of Fluffy Bathura Or Fried Leavene",
+                              "category": "Quick Bites",
+                              "description": "| 2 pcs | partner cannot provide extra Chole at free of cost or with addtional cost.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "14560 ratings",
+                                  "ratingCountV2": "14560"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852104",
+                              "name": "Single Bhatoora (1 Pc)",
+                              "category": "Quick Bites",
+                              "description": "Deep-fried flatbreads made with a fermented refined flour dough.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "2287 ratings",
+                                  "ratingCountV2": "2287"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "1852105",
+                              "name": "Single Chole (a Lip-smacking Dish Made Of Chickpeas Laden With Whole Spices, Onions And Tomatoes )",
+                              "category": "Quick Bites",
+                              "description": "| 150 ml |",
+                              "imageId": "c6d6db40b46923b2ea8df21cf6ebbba0",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "4105 ratings",
+                                  "ratingCountV2": "4105"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994221",
+                              "name": "Chole Bhatoora (with Aloo)",
+                              "category": "Quick Bites",
+                              "description": "(cannot provide extra Onions and Chutneyat free of cost or with addtional cost) Serves - 1",
+                              "imageId": "121f02db6eb5fdd487b3fe5179f63abd",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "1324 ratings",
+                                  "ratingCountV2": "1324"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994223",
+                              "name": "Chole Bhatoora (without Onion)",
+                              "category": "Quick Bites",
+                              "description": "| Serves 1 | A classic Punjabi combo consisting of fluffy bathura or fried leavened bread and delicious chickpea gravy. Cooked without onions.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "1125 ratings",
+                                  "ratingCountV2": "1125"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Combo Special",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "61822914",
+                              "name": "3 Plates Chole Bhature",
+                              "category": "Combo Special",
+                              "description": "| Serves 2-3 |  3 Plate Chole Bhature with Aloo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 40500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "295 ratings",
+                                  "ratingCountV2": "295"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "61822916",
+                              "name": "3 Plate Chole Bhature=3 Sweet Lassi",
+                              "category": "Combo Special",
+                              "description": "(without Aloo) + 3 Sweet Lassi (perfect Indian Snack Consist Of Spicy White )",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 66500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "54 ratings",
+                                  "ratingCountV2": "54"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "61822918",
+                              "name": "2 Plate Chole Bhature + 2 Sweet Lassi + Single Chole",
+                              "category": "Combo Special",
+                              "description": "A classic Punjabi combo consisting of fluffy bathura served with thick and indulgent chickpea gravy with sweet lassi.",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 43000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "45 ratings",
+                                  "ratingCountV2": "45"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96387990",
+                              "name": "2 Chole Bhature + 2 Namkeen Lassi",
+                              "category": "Combo Special",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 43000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "1.6",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Combo",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "34591252",
+                              "name": "Chole Bhature + Sweet Lassi (perfect Indian Snack Consist Of Spicy White Chickpeas(chole) Served )",
+                              "category": "Combo",
+                              "description": "| Serves 1 |",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 21500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1643 ratings",
+                                  "ratingCountV2": "1643"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96388006",
+                              "name": "Chole Bhature + Namkeen Lassi",
+                              "category": "Combo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 21500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "31 ratings",
+                                  "ratingCountV2": "31"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Drinks",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "43182129",
+                              "name": "Annar Shikanji",
+                              "category": "Drinks",
+                              "description": "| Serves 1 |",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "174 ratings",
+                                  "ratingCountV2": "174"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "43182130",
+                              "name": "Aam Panna",
+                              "category": "Drinks",
+                              "description": "| Serves 1 |",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "138 ratings",
+                                  "ratingCountV2": "138"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "43182153",
+                              "name": "Ice Tea Shikanji",
+                              "category": "Drinks",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "59 ratings",
+                                  "ratingCountV2": "59"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "43182154",
+                              "name": "Raw Mango Shikanji",
+                              "category": "Drinks",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "65 ratings",
+                                  "ratingCountV2": "65"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96388017",
+                              "name": "Namkeen Lassi",
+                              "category": "Drinks",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "30 ratings",
+                                  "ratingCountV2": "30"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994226",
+                              "name": "Masala Shikanji. ....",
+                              "category": "Drinks",
+                              "description": "| Serves 1 |",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "197 ratings",
+                                  "ratingCountV2": "197"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "104994228",
+                              "name": "Sweet Lassi",
+                              "category": "Drinks",
+                              "description": "| 300 ml | A creamy and wholesome drink, made from yogurt flavored with sugar.",
+                              "imageId": "7a4fc3a99a305000479519b94d99a207",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2899 ratings",
+                                  "ratingCountV2": "2899"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 13318005000418"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Sita Ram Diwan Chand",
+                      "area": "Pitampura",
+                      "completeAddress": "Shop 2, MD Market, Muni Maya Ram Jain Marg, MD Block, Pitampura"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "7ebb8d9f-bdc6-4d60-a97f-3516160e31cb",
+  "sid": "ba8d76c6-d49b-42ea-86f0-72267de7aae9",
+  "deviceId": "559001f9-4925-23e7-ab05-fb8f19a288e5",
+  "csrfToken": "ckIQg4eDtrQZ-FJbW5chVGFr11EiqVgP_bdxRyfI"
+}
